@@ -26,7 +26,7 @@ public class SampleTest {
 		File src = ((TakesScreenshot)wd).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(src,new File("C:\\SeleniumWorkspace\\GITHubTest\\Screenshot\\sample.jpeg"));
 		
-		
+		System.out.println("Test");
 		
 
 	}
